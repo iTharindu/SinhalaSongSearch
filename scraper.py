@@ -264,5 +264,9 @@ def create_meta_all():
 #combine_songs()
 #get_songs_data()
 #print(mtranslate.translate('Coffee', 'si', 'en'))
+if __name__ == "__main__":
+	scrape_links()
+	get_songs_data()
+	create_meta_all()
 
-create_meta_all()
+    
